@@ -6,6 +6,7 @@ const todoRoutes = require('./routes/todoRoutes');
 
 const apiKey = 'your_api_key_here';
 
+//middleware
 app.use(logger);
 app.use(authenticate(apiKey));
 app.use(express.json());
