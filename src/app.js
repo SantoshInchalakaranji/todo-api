@@ -4,7 +4,7 @@ const authenticate = require('./middleware/auth');
 const app = express();
 const todoRoutes = require('./routes/todoRoutes');
 
-const apiKey = 'your_api_key_here';
+const apiKey = '1234567890';
 
 //middleware
 app.use(logger);
